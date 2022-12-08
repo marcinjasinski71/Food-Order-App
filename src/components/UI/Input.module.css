@@ -1,0 +1,13 @@
+.input {
+	margin: 0 0.5rem 0.5rem 0;
+	width: 5rem;
+	border-radius: 5px;
+	font: inherit;
+	padding-left: 0.5rem;
+}
+
+.input label {
+	font-weight: bold;
+	color: #1a1b1c;
+	min-width: 100%;
+}

@@ -11,8 +11,9 @@
 }
 
 .description {
-	font-style: italic;
 	color: #222831;
+	text-align: left;
+	font-size: 1.6rem;
 }
 
 .price {
@@ -24,4 +25,12 @@
 
 .name {
 	color: #222831;
+	text-align: left;
+}
+
+.meal-list {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-start;
 }
