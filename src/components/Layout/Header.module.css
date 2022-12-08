@@ -3,7 +3,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 5rem;
+	height: 7rem;
 	padding: 0 10%;
 	display: flex;
 	justify-content: space-between;
@@ -14,7 +14,7 @@
 	z-index: 10;
 }
 .logo {
-	font-size: 1.75rem;
+	font-size: 3rem;
 	font-weight: bold;
 }
 .logo-n {
@@ -27,7 +27,7 @@ h1 {
 
 .main-image {
 	width: 100%;
-	height: 25rem;
+	height: 35rem;
 	z-index: 0;
 	overflow: hidden;
 }
@@ -46,7 +46,7 @@ h1 {
 
 	.main-image img {
 		object-fit: contain;
-		margin-top: -1rem;
+		margin-top: -2.5rem;
 		transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 	}
 }

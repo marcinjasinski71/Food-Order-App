@@ -11,20 +11,20 @@
 }
 
 .summary h2 {
-	font-size: 4rem;
+	font-size: 6rem;
 	color: #00adb5;
 	font-weight: 100;
 	letter-spacing: 0.2rem;
 }
 
 .summary h3 {
-	font-size: 1.75rem;
+	font-size: 3rem;
 	font-weight: 400;
 	letter-spacing: 0.2rem;
 	color: #00adb5;
 }
 .summary-and {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 100;
 }
 
