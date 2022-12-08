@@ -1,0 +1,35 @@
+.summary {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	max-width: 50%;
+	margin: auto;
+	margin-top: -10rem;
+	position: relative;
+	color: #ffffff;
+	padding: 1rem;
+}
+
+.summary h2 {
+	font-size: 4rem;
+	color: #00adb5;
+	font-weight: 100;
+	letter-spacing: 0.2rem;
+}
+
+.summary h3 {
+	font-size: 1.75rem;
+	font-weight: 400;
+	letter-spacing: 0.2rem;
+	color: #00adb5;
+}
+.summary-and {
+	font-size: 2rem;
+	font-weight: 100;
+}
+
+@media (max-width: 768px) {
+	.summary {
+		max-width: 90%;
+	}
+}
