@@ -13,6 +13,13 @@
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
 	z-index: 10;
 }
+.logo {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+.logo-n {
+	color: #00adb5;
+}
 
 h1 {
 	font-weight: 400;

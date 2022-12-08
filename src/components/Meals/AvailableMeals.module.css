@@ -1,14 +1,18 @@
 .meals {
-	max-width: 60rem;
-	width: 90%;
-	margin: 2rem auto;
 	animation: meals-appear 1s ease-in;
+	font-size: 1.5rem;
+	width: 80%;
+	text-align: center;
 }
 
 .meals ul {
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	padding: 1rem 0;
+}
+
+.name {
+	color: #00adb5;
+	font-weight: bold;
 }
 
 @keyframes meals-appear {

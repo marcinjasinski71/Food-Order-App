@@ -7,7 +7,9 @@ const Header = props => {
 	return (
 		<>
 			<header className={classes.header}>
-				<h1>Click'n'Eat!</h1>
+				<span className={classes.logo}>
+					Click<span className={classes['logo-n']}>'n'</span>Eat
+				</span>
 				<HeaderCartButton />
 			</header>
 
