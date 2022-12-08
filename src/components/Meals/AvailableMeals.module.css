@@ -10,11 +10,6 @@
 	padding: 1.5rem 0;
 }
 
-.name {
-	color: #00adb5;
-	font-weight: bold;
-}
-
 @keyframes meals-appear {
 	from {
 		opacity: 0;
