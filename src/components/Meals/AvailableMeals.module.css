@@ -10,6 +10,14 @@
 	padding: 1.5rem 0;
 }
 
+.MealsLoading {
+	text-align: center;
+	color: rgb(163, 163, 163);
+	font-size: 5rem;
+	margin-top: 4.5rem;
+	letter-spacing: 1rem;
+}
+
 @keyframes meals-appear {
 	from {
 		opacity: 0;
