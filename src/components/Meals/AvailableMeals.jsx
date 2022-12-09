@@ -5,14 +5,14 @@ import Card from '../UI/Card';
 const DUMMY_MEALS = [
 	{
 		id: 'm1',
-		name: 'Sushi',
-		description: 'Finest fish and veggies',
-		price: 22.99,
+		name: 'French Fries',
+		description: 'Best fries from fresh potatoes',
+		price: 11.99,
 	},
 	{
 		id: 'm2',
-		name: 'Schnitzel',
-		description: 'A german specialty!',
+		name: 'Mac and Cheese',
+		description: 'Classic, worldwide burger.',
 		price: 16.5,
 	},
 	{
@@ -23,8 +23,26 @@ const DUMMY_MEALS = [
 	},
 	{
 		id: 'm4',
-		name: 'Green Bowl',
-		description: 'Healthy...and green...',
+		name: 'Salad Bowls',
+		description: 'Healthy mixed salads. So fresh !',
+		price: 7.99,
+	},
+	{
+		id: 'm5',
+		name: 'Black Reaper',
+		description: 'Can you handle our SO-SPICY-BURGER?',
+		price: 9.99,
+	},
+	{
+		id: 'm6',
+		name: 'Polish Pierogis',
+		description: 'Classic Polish dumplings with cheese',
+		price: 10.99,
+	},
+	{
+		id: 'm7',
+		name: 'Lasagna',
+		description: 'Over 5000 Calories in once. Dig it!',
 		price: 18.99,
 	},
 ];

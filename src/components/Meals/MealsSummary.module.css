@@ -11,7 +11,7 @@
 }
 
 .summary h2 {
-	font-size: 6rem;
+	font-size: 8rem;
 	color: #00adb5;
 	font-weight: 100;
 	letter-spacing: 0.3rem;
@@ -20,17 +20,30 @@
 .summary h3 {
 	font-size: 3rem;
 	font-weight: 400;
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.75rem;
 	color: #00adb5;
 }
+
 .summary-and {
-	font-size: 3rem;
+	font-size: 4rem;
+	font-weight: 100;
+}
+.menulist {
+	margin-top: 4rem;
+	font-size: 7rem;
 	font-weight: 100;
 }
 
 @media (max-width: 768px) {
 	.summary {
 		max-width: 90%;
+	}
+	.menulist {
+		font-size: 5rem;
+	}
+
+	.summary h2 {
+		font-size: 6rem;
 	}
 }
 
