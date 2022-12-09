@@ -1,7 +1,7 @@
 .form {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: flex-end;
 	justify-content: center;
 	text-align: right;
 }
@@ -22,4 +22,12 @@
 	background-color: #0d979e;
 	border: 1px solid #0d979e;
 	transition: background-color 0.35s;
+}
+
+.errormsg {
+	position: relative;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	color: #d31a1a;
+	font-weight: bold;
 }
