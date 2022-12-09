@@ -33,3 +33,9 @@
 		max-width: 90%;
 	}
 }
+
+@media (min-width: 500px) and (max-width: 767px) {
+	.summary {
+		margin-top: -5rem;
+	}
+}

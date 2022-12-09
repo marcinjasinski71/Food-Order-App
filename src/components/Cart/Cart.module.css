@@ -4,6 +4,15 @@
 	padding: 0;
 	max-height: 20rem;
 	overflow: auto;
+	color: black;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.info {
+	color: black;
+	font-size: 2rem;
+	font-weight: 400;
 }
 
 .total {
@@ -23,24 +32,26 @@
 	font: inherit;
 	cursor: pointer;
 	background-color: transparent;
-	border: 1px solid #8a2b06;
+	border: 1px solid #00adb5;
 	padding: 0.5rem 2rem;
 	border-radius: 25px;
 	margin-left: 1rem;
+	font-size: 1.5rem;
 }
 
 .actions button:hover,
 .actions button:active {
-	background-color: #5a1a01;
-	border-color: #5a1a01;
+	background-color: #0d979e;
+	border-color: #0d979e;
 	color: white;
 }
 
 .actions .button--alt {
-	color: #8a2b06;
+	color: #1a1b1c;
+	font-size: 1.5rem;
 }
 
 .actions .button {
-	background-color: #8a2b06;
-	color: white;
+	background-color: #00adb5;
+	color: #eee;
 }

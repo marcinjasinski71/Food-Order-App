@@ -10,7 +10,7 @@ const Header = props => {
 				<span className={classes.logo}>
 					Click<span className={classes['logo-n']}>'n'</span>Eat
 				</span>
-				<HeaderCartButton />
+				<HeaderCartButton onClick={props.onShowCart} />
 			</header>
 
 			<div className={classes['main-image']}>
