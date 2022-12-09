@@ -23,10 +23,3 @@
 	border: 1px solid #0d979e;
 	transition: background-color 0.35s;
 }
-
-@media (max-width: 768px) {
-	.form {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-}
