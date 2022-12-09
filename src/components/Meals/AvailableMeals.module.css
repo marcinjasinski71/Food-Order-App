@@ -10,13 +10,10 @@
 	padding: 1.5rem 0;
 }
 
-.MealsLoading {
+.MealsError {
 	text-align: center;
-	color: rgb(163, 163, 163);
-	font-size: 5rem;
-	margin-top: 4.5rem;
-	letter-spacing: 2rem;
-	font-weight: 100;
+	color: red;
+	font-size: 4rem;
 }
 
 /* LOADING ANIMATION */

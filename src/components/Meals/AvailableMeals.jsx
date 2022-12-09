@@ -6,12 +6,18 @@ import Card from '../UI/Card';
 const AvailableMeals = () => {
 	const [meals, setMeals] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
+	const [httpError, setHttpError] = useState();
 
 	useEffect(() => {
 		const fetchMeals = async () => {
 			const response = await fetch(
 				'https://click-n-eat-15db4-default-rtdb.europe-west1.firebasedatabase.app/meals.json'
 			);
+
+			if (!response.ok) {
+				throw new Error('Something went wrong!');
+			}
+
 			const responseData = await response.json();
 
 			const loadedMeals = [];
@@ -28,7 +34,11 @@ const AvailableMeals = () => {
 			setMeals(loadedMeals);
 			setIsLoading(false);
 		};
-		fetchMeals();
+
+		fetchMeals().catch(error => {
+			setIsLoading(false);
+			setHttpError(`${error.message}.`);
+		});
 	}, []);
 
 	if (isLoading) {
@@ -45,6 +55,14 @@ const AvailableMeals = () => {
 					<div></div>
 				</div>
 			</>
+		);
+	}
+
+	if (httpError) {
+		return (
+			<section className={classes.MealsError}>
+				<p>{httpError}</p>
+			</section>
 		);
 	}
 
