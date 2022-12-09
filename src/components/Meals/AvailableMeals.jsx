@@ -33,9 +33,18 @@ const AvailableMeals = () => {
 
 	if (isLoading) {
 		return (
-			<section className={classes.MealsLoading}>
-				<p>Loading...</p>
-			</section>
+			<>
+				<div className={classes['lds-roller']}>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</>
 		);
 	}
 
