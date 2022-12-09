@@ -10,16 +10,16 @@
 
 /* Chrome, Edge, and Safari  SCROLL*/
 *::-webkit-scrollbar {
-	width: 16px;
+	width: 12px;
 }
 *::-webkit-scrollbar-track {
-	background: #ffffff;
+	background: #eee;
 }
 
 *::-webkit-scrollbar-thumb {
 	background-color: #00adb5;
-	border-radius: 20px;
-	border: 2px solid #ffffff;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
 }
 
 /* KONIEC SCROLLA */
