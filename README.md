@@ -29,7 +29,7 @@ Click'n'Eat is a website where you can order your favorite food.
 
 <br><br><br>
 <b>Extras:</b><br>
-You may not see some loading animations (during rendering menu on main screen + ordering food) beause of small requests from http.
+You may not see some loading animations (during rendering menu on main screen + ordering food) because of quite fast http requests.
 Just in your Developer Tools slow down your internet to 3G and reload the page. You will see loading spinner while rendering menu. <br> <b>Try it!</b>
 
 <b>Menu Loader</b>
